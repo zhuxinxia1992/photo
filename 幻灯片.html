@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>¬√––”Œº«</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ÊóÖË°åÊ∏∏ËÆ∞</title>
 <link href="css/change.css" rel="stylesheet"/>
 <script type="text/javascript" src="js/change.js"></script>
 <script>
@@ -24,12 +24,12 @@ window.onload=function()
 		if(iNowUlLeft>0)
 		{
 			iNowUlLeft--;
-			//oIcoUl.style.left=-aIcoLi[0].offsetWidth*iNowUlLeft+'px';   //ul“∆∂Øµƒæ‡¿Î
+			//oIcoUl.style.left=-aIcoLi[0].offsetWidth*iNowUlLeft+'px';   //ulÁßªÂä®ÁöÑË∑ùÁ¶ª
 			fixUlLeft();
 		}	
 	};
 	
-	function fixUlLeft()                                                    //µ˜’˚ulµƒ÷µ
+	function fixUlLeft()                                                    //Ë∞ÉÊï¥ulÁöÑÂÄº
 	{
 		oBtnPrev.className=iNowUlLeft==0?'btn':'btn showBtn';
 		oBtnNext.className=iNowUlLeft==(aIcoLi.length-7)?'btn':'btn showBtn';
@@ -48,7 +48,7 @@ window.onload=function()
 	
 	for(i=0;i<aIcoLi.length;i++)
 	{
-		aIcoLi[i].index=i;                                  //À˜“˝÷µ
+		aIcoLi[i].index=i;                                  //Á¥¢ÂºïÂÄº
 		aIcoLi[i].onclick=function()
 		{
 			if(iNow == this.index)
@@ -68,18 +68,18 @@ window.onload=function()
 		{
 			aIcoLi[i].className='';
 			aTxtLi[i].getElementsByTagName('h2')[0].className='';
-			aPicLi[i].style.filter='alpha(opacity:0)';           //»√À˘”–µƒÕº∆¨Õ∏√˜∂»∂ºŒ™0
+			aPicLi[i].style.filter='alpha(opacity:0)';           //ËÆ©ÊâÄÊúâÁöÑÂõæÁâáÈÄèÊòéÂ∫¶ÈÉΩ‰∏∫0
 			aPicLi[i].style.opacity=0;
 			StopMove(aPicLi[i]);
 		}
 		aIcoLi[iNow].className='active';
 		aTxtLi[iNow].getElementsByTagName('h2')[0].className='show';
-		//aPicLi[this.index].style.filter='alpha(opacity:100)';   //µ±«∞this.indexµƒÕ∏√˜∂»Œ™100
-		//aPicLi[this.index].style.opacity=1;                     //ª∫¸‰Ø¿¿∆˜ºÊ»›£¨»√∆‰Õ∏√˜∂»“≤Œ™1
+		//aPicLi[this.index].style.filter='alpha(opacity:100)';   //ÂΩìÂâçthis.indexÁöÑÈÄèÊòéÂ∫¶‰∏∫100
+		//aPicLi[this.index].style.opacity=1;                     //ÁÅ´ÁãêÊµèËßàÂô®ÂÖºÂÆπÔºåËÆ©ÂÖ∂ÈÄèÊòéÂ∫¶‰πü‰∏∫1
 		StartMove(aPicLi[iNow],{opacity:100},MOVE_TYPE.BUFFER);
 	}
 	
-	function autoPlay()      //◊‘∂Ø≤•∑≈£¨”√∂® ±∆˜øÿ÷∆
+	function autoPlay()      //Ëá™Âä®Êí≠ÊîæÔºåÁî®ÂÆöÊó∂Âô®ÊéßÂà∂
 	{             
 		iNow++;
 		
@@ -102,7 +102,7 @@ window.onload=function()
 		tab();
 	}
 	
-	var timer=setInterval(autoPlay,3000);               //∂® ±∆˜øÿ÷∆£¨3√Î
+	var timer=setInterval(autoPlay,3000);               //ÂÆöÊó∂Âô®ÊéßÂà∂Ôºå3Áßí
 	
 	oDiv.onmouseover=function()
 	{
@@ -121,46 +121,46 @@ window.onload=function()
 <div id="box">
 	<ul id="pic_list">
 		<li style="z-index:2;opacity:1;fliter:alpha(opacity=100);">
-			<a href="#"><img src="img/pic_1.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_1.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_2.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_2.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_3.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_3.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_4.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_4.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_5.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_5.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_6.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_6.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_7.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_7.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_8.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_8.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_9.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_9.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_10.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_10.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_11.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_11.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_12.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_12.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_13.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_13.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 		<li>
-			<a href="#"><img src="img/pic_14.jpg" alert="Œ“µƒ÷˜“≥"/></a>
+			<a href="#"><img src="img/pic_14.jpg" alert="ÊàëÁöÑ‰∏ªÈ°µ"/></a>
 		</li>
 	</ul>
 	
@@ -183,21 +183,21 @@ window.onload=function()
 		<li><h2><a href="#"></a></h2></li>
 	</ul>
 	<div id="ico_list">
-		<ul>                                                <!--»√–°Õº∆¨“∆∂Ø£¨±‰µ√ «ulµƒleft-->
-			<li class="active"><a href="#"><img src="img/ico_1.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_2.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_3.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_4.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_5.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_6.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_7.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_8.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_9.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_10.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_11.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_12.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_13.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
-			<li><a href="#"><img src="img/ico_14.jpg" alt="Œ“µƒ—ßœ∞"/></a></li>
+		<ul>                                                <!--ËÆ©Â∞èÂõæÁâáÁßªÂä®ÔºåÂèòÂæóÊòØulÁöÑleft-->
+			<li class="active"><a href="#"><img src="img/ico_1.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_2.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_3.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_4.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_5.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_6.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_7.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_8.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_9.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_10.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_11.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_12.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_13.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
+			<li><a href="#"><img src="img/ico_14.jpg" alt="ÊàëÁöÑÂ≠¶‰π†"/></a></li>
 		</ul>
 	</div>
 	<a href="#" id="btn_prev" class="btn"></a>
